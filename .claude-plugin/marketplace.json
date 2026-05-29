@@ -1,0 +1,17 @@
+{
+  "name": "nerdz",
+  "owner": { "name": "Gavin McFall", "email": "gavin@nerdz.co.nz" },
+  "description": "Self-hosted Claude Code plugins by Gavin McFall (nerdz.co.nz).",
+  "plugins": [
+    {
+      "name": "spyglass-client",
+      "source": {
+        "source": "git-subdir",
+        "url": "gavinmcfall/spyglass",
+        "path": "plugins/spyglass-client",
+        "ref": "main"
+      },
+      "description": "Reports each Claude Code session to a Spyglass dashboard."
+    }
+  ]
+}
